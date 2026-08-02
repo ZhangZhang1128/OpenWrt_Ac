@@ -9,6 +9,8 @@
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
 #
+# 克隆 Argon 主题（直接放到 package 目录，避开 feed 索引）
+git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 
 # 修改默认 IP 为 10.0.0.1
 sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
